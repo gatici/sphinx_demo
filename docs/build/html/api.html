@@ -67,10 +67,26 @@
              
   <div class="section" id="module-sample">
 <span id="api"></span><h1>API<a class="headerlink" href="#module-sample" title="Permalink to this headline"></a></h1>
+<p><strong>Classes:</strong></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#sample.Person" title="sample.Person"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Person</span></code></a>(name, surname, age)</p></td>
+<td><p>A class to represent a person.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#sample.Teacher" title="sample.Teacher"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Teacher</span></code></a>(name, surname, age, branch)</p></td>
+<td><p>A class to represent a teacher.</p></td>
+</tr>
+</tbody>
+</table>
 <dl class="py class">
 <dt class="sig sig-object py" id="sample.Person">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sample.</span></span><span class="sig-name descname"><span class="pre">Person</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sample.html#Person"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sample.Person" title="Permalink to this definition"></a></dt>
-<dd><p>A class to represent a person.</p>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class to represent a person.</p>
 <p>…</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="sample.Person.name">
@@ -131,7 +147,8 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="sample.Teacher">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sample.</span></span><span class="sig-name descname"><span class="pre">Teacher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">branch</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sample.html#Teacher"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sample.Teacher" title="Permalink to this definition"></a></dt>
-<dd><p>A class to represent a teacher.</p>
+<dd><p>Bases: <a class="reference internal" href="#sample.Person" title="sample.Person"><code class="xref py py-class docutils literal notranslate"><span class="pre">sample.Person</span></code></a></p>
+<p>A class to represent a teacher.</p>
 <p>…</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="sample.Teacher.name">
@@ -170,67 +187,6 @@
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">info(additional=&quot;&quot;):</span></span></dt>
 <dd><p>Prints the Teacher’s name and age.</p>
-</dd></dl>
-
-</dd></dl>
-
-<dl class="py class">
-<dt class="sig sig-object py">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">sample.</span></span><span class="sig-name descname"><span class="pre">Person</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">age</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sample.html#Person"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
-<dd><p>A class to represent a person.</p>
-<p>…</p>
-<dl class="py attribute">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">name</span></span></dt>
-<dd><p>first name of the person</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>str</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">surname</span></span></dt>
-<dd><p>family name of the person</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>str</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">age</span></span></dt>
-<dd><p>age of the person</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>int</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">info(additional=&quot;&quot;):</span></span></dt>
-<dd><p>Prints the person’s name and age.</p>
-</dd></dl>
-
-<dl class="py method">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">additional</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sample.html#Person.info"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
-<dd><p>Prints the person’s name and age.</p>
-<p>If the argument ‘additional’ is passed, then it is appended after the main info.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>additional</strong> (<em>str</em><em>, </em><em>optional</em>) – More info to be displayed (default is None)</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p>None</p>
-</dd>
-</dl>
 </dd></dl>
 
 </dd></dl>

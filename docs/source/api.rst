@@ -2,9 +2,8 @@ API
 ===
 
 .. automodule:: sample
+   :autosummary:
+   :autosummary-no-nesting:
    :members:
-.. autoclass:: sample.Person
-   :members:
-   :noindex:
-   :inherited-members:
-   :exclude-members:
+   :undoc-members:
+   :show-inheritance:
