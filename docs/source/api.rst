@@ -5,6 +5,5 @@ API
    :members:
 .. autoclass:: sample.Person
    :members:
-   :noindex:
    :inherited-members:
    :exclude-members:
